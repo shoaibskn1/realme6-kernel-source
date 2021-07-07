@@ -25,7 +25,7 @@ jobs:
       id: build
       with:
         arch: arm64
-        compiler: gcc/9
+        compiler: clang/9
         defconfig: oppo6785_defconfig
         image: Image.gz-dtb
 
