@@ -35,7 +35,7 @@
 || CONFIG_OPPO_BSP_SECCOM_PLATFORM == 7250 || CONFIG_OPPO_BSP_SECCOM_PLATFORM == 8250
 #include <linux/soc/qcom/smem.h>
 #else
-#include <soc/qcom/smem.h>
+#include "linux/soc/qcom/smem.h"
 #endif
 
 #include <linux/slab.h>
@@ -47,7 +47,7 @@
 || CONFIG_OPPO_BSP_SECCOM_PLATFORM == 7250 || CONFIG_OPPO_BSP_SECCOM_PLATFORM == 8250
 #include <linux/uaccess.h>
 #else
-#include <asm/uaccess.h>
+#include "linux/uaccess.h"
 #endif
 
 #include <linux/delay.h>
