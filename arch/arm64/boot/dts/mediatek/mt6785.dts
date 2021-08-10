@@ -51,7 +51,7 @@ page_owner=on loop.max_part=7";
 			compatible = "arm,cortex-a55";
 			reg = <0x0000>;
 			enable-method = "psci";
-			clock-frequency = <1805000000>;
+			clock-frequency = <2005000000>;
 			cpu-idle-states = <&standby &mcdi_cpu &mcdi_cluster>,
 				<&idledram &idlesyspll &idlebus26m &suspend>;
 		};
@@ -61,7 +61,7 @@ page_owner=on loop.max_part=7";
 			compatible = "arm,cortex-a55";
 			reg = <0x0100>;
 			enable-method = "psci";
-			clock-frequency = <1805000000>;
+			clock-frequency = <2005000000>;
 			cpu-idle-states = <&standby &mcdi_cpu &mcdi_cluster>,
 				<&idledram &idlesyspll &idlebus26m &suspend>;
 		};
@@ -71,7 +71,7 @@ page_owner=on loop.max_part=7";
 			compatible = "arm,cortex-a55";
 			reg = <0x0200>;
 			enable-method = "psci";
-			clock-frequency = <1805000000>;
+			clock-frequency = <2005000000>;
 			cpu-idle-states = <&standby &mcdi_cpu &mcdi_cluster>,
 				<&idledram &idlesyspll &idlebus26m &suspend>;
 		};
@@ -81,7 +81,7 @@ page_owner=on loop.max_part=7";
 			compatible = "arm,cortex-a55";
 			reg = <0x0300>;
 			enable-method = "psci";
-			clock-frequency = <1805000000>;
+			clock-frequency = <2005000000>;
 			cpu-idle-states = <&standby &mcdi_cpu &mcdi_cluster>,
 				<&idledram &idlesyspll &idlebus26m &suspend>;
 		};
@@ -91,7 +91,7 @@ page_owner=on loop.max_part=7";
 			compatible = "arm,cortex-a55";
 			reg = <0x0400>;
 			enable-method = "psci";
-			clock-frequency = <1805000000>;
+			clock-frequency = <2005000000>;
 			cpu-idle-states = <&standby &mcdi_cpu &mcdi_cluster>,
 				<&idledram &idlesyspll &idlebus26m &suspend>;
 		};
@@ -101,7 +101,7 @@ page_owner=on loop.max_part=7";
 			compatible = "arm,cortex-a55";
 			reg = <0x0500>;
 			enable-method = "psci";
-			clock-frequency = <1805000000>;
+			clock-frequency = <2005000000>;
 			cpu-idle-states = <&standby &mcdi_cpu &mcdi_cluster>,
 				<&idledram &idlesyspll &idlebus26m &suspend>;
 		};
@@ -111,7 +111,7 @@ page_owner=on loop.max_part=7";
 			compatible = "arm,cortex-a75";
 			reg = <0x0600>;
 			enable-method = "psci";
-			clock-frequency = <2281000000>;
+			clock-frequency = <2481000000>;
 			cpu-idle-states = <&standby &mcdi_cpu &mcdi_cluster>,
 				<&idledram &idlesyspll &idlebus26m &suspend>;
 		};
@@ -121,7 +121,7 @@ page_owner=on loop.max_part=7";
 			compatible = "arm,cortex-a75";
 			reg = <0x0700>;
 			enable-method = "psci";
-			clock-frequency = <2281000000>;
+			clock-frequency = <2481000000>;
 			cpu-idle-states = <&standby &mcdi_cpu &mcdi_cluster>,
 				<&idledram &idlesyspll &idlebus26m &suspend>;
 		};
